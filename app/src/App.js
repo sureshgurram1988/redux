@@ -6,7 +6,7 @@ import {Inc_PlayerOne_Score, Inc_PlayerTwo_Score, Dec_PlayerOne_Score, Dec_Playe
 const App = ({playerOne, playerTwo, Inc_PlayerOne_Score, Inc_PlayerTwo_Score, Dec_PlayerOne_Score, Dec_PlayerTwo_Score}) => {
   return (
     <div>
-      <h2>Player one Details</h2>
+      <h2>Player one Details of score</h2>
       <p>Name is {playerOne.name}</p> <p>Score is {playerOne.score}</p>
       <button onClick={() => Inc_PlayerOne_Score(5)}>Increment</button>
       <button onClick={() => Dec_PlayerOne_Score()}>Decrement</button>
